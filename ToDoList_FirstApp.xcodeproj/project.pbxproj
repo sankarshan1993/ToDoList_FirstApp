@@ -19,6 +19,7 @@
 		1CB8DD6D1922B63E0036B6FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB8DD551922B63E0036B6FD /* UIKit.framework */; };
 		1CB8DD751922B63E0036B6FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB8DD731922B63E0036B6FD /* InfoPlist.strings */; };
 		1CB8DD771922B63E0036B6FD /* ToDoList_FirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8DD761922B63E0036B6FD /* ToDoList_FirstAppTests.m */; };
+		1CB8DD811922B8230036B6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB8DD801922B8230036B6FD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		1CB8DD721922B63E0036B6FD /* ToDoList_FirstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoList_FirstAppTests-Info.plist"; sourceTree = "<group>"; };
 		1CB8DD741922B63E0036B6FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CB8DD761922B63E0036B6FD /* ToDoList_FirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoList_FirstAppTests.m; sourceTree = "<group>"; };
+		1CB8DD801922B8230036B6FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				1CB8DD601922B63E0036B6FD /* XYZAppDelegate.h */,
 				1CB8DD611922B63E0036B6FD /* XYZAppDelegate.m */,
+				1CB8DD801922B8230036B6FD /* Main.storyboard */,
 				1CB8DD631922B63E0036B6FD /* Images.xcassets */,
 				1CB8DD581922B63E0036B6FD /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB8DD811922B8230036B6FD /* Main.storyboard in Resources */,
 				1CB8DD5C1922B63E0036B6FD /* InfoPlist.strings in Resources */,
 				1CB8DD641922B63E0036B6FD /* Images.xcassets in Resources */,
 			);
